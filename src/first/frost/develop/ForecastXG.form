@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="first.frost.develop.ForecastXG">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="931" height="380"/>
+    </constraints>
+    <properties>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none" title="FORECAST GOALS WITH xG" title-justification="2" title-position="1">
+      <font name="Segoe UI Black" size="48" style="1"/>
+      <title-color color="-16185078"/>
+    </border>
+    <children>
+      <component id="ad223" class="javax.swing.JLabel" binding="awayLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="36" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="AWAY"/>
+        </properties>
+      </component>
+      <component id="d4462" class="javax.swing.JLabel" binding="scoreLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="24" style="0"/>
+          <text value="Score"/>
+        </properties>
+      </component>
+      <component id="4d1db" class="javax.swing.JLabel" binding="scoreXGLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="24" style="0"/>
+          <text value="Score (xG)"/>
+        </properties>
+      </component>
+      <component id="e1cdd" class="javax.swing.JLabel" binding="missedXGLabel">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="24" style="0"/>
+          <text value="Missed (xG)"/>
+        </properties>
+      </component>
+      <component id="53a78" class="javax.swing.JTextField" binding="jTFScoreHome">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="9d6ca" class="javax.swing.JTextField" binding="jTFMissHome">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="85bd8" class="javax.swing.JTextField" binding="jTFScoreAway">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="87df2" class="javax.swing.JTextField" binding="jTFMissAway">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="8087c" class="javax.swing.JTextField" binding="jTFScoreHome_xG">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="a486" class="javax.swing.JTextField" binding="jTFScoreAway_xG">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="ee049" class="javax.swing.JTextField" binding="jTFMissHome_xG">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="dc82" class="javax.swing.JTextField" binding="jTFMissAway_xG">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="a55b6" class="javax.swing.JLabel" binding="missedLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="24" style="0"/>
+          <text value="Missed"/>
+        </properties>
+      </component>
+      <component id="d2b68" class="javax.swing.JLabel" binding="homeLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="36" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <labelFor value=""/>
+          <text value="HOME"/>
+        </properties>
+      </component>
+      <component id="c0da7" class="javax.swing.JLabel" binding="vsLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="36" style="1"/>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="933c2" class="javax.swing.JLabel" binding="totalLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma" size="24" style="1"/>
+          <text value="TOTAL"/>
+        </properties>
+      </component>
+      <component id="939d8" class="javax.swing.JTextField" binding="jTFTotalHome">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Segoe UI Black" size="36" style="1"/>
+          <foreground color="-13681477"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="c9caa" class="javax.swing.JTextField" binding="jTFTotalAway">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Segoe UI Black" size="36" style="1"/>
+          <foreground color="-13681477"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="de44c" class="javax.swing.JButton" binding="clrButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="ae864" class="javax.swing.JButton" binding="calcButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
