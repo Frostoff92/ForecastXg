@@ -6,7 +6,7 @@ The data is based on the following parameters:
 
 * *Scores by home team*;
 * *Missed by home team*;
-* *Created scoring chances by the homw team*;
+* *Created scoring chances by the home team*;
 * *Lost scoring chances by the home team*;
 * *Scores with guests*;
 * *Missed by guests*;
