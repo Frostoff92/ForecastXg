@@ -4,10 +4,10 @@
 
 The data is based on the following parameters:
 
-* *Scores by hosts*;
-* *Missed by hosts*;
-* *Created scoring chances by the hosts*;
-* *Lost scoring chances by the hosts*;
+* *Scores by home team*;
+* *Missed by home team*;
+* *Created scoring chances by the homw team*;
+* *Lost scoring chances by the home team*;
 * *Scores with guests*;
 * *Missed by guests*;
 * *Created scoring chances by guests*;
