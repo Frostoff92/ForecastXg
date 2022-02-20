@@ -119,6 +119,7 @@ public class ForecastXG extends JFrame {
         forecast.setContentPane(new ForecastXG().jPanel);
         forecast.pack();
 
+
     }
 
 }
